@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17552" started-at="2020-05-12T09:50:00Z" finished-at="2020-05-12T09:50:17Z">
+  <suite name="Default suite" duration-ms="16376" started-at="2020-05-13T18:35:10Z" finished-at="2020-05-13T18:35:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17552" started-at="2020-05-12T09:50:00Z" finished-at="2020-05-12T09:50:17Z">
+    <test name="Default test" duration-ms="16376" started-at="2020-05-13T18:35:10Z" finished-at="2020-05-13T18:35:26Z">
       <class name="com.tests.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@3108bc]" name="setup" is-config="true" duration-ms="9128" started-at="2020-05-12T15:20:00Z" finished-at="2020-05-12T15:20:09Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@3108bc]" name="setup" is-config="true" duration-ms="7742" started-at="2020-05-14T00:05:10Z" finished-at="2020-05-14T00:05:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="freeCrmTitleTest()[pri:1, instance:com.tests.LoginTest@3108bc]" name="freeCrmTitleTest" duration-ms="69" started-at="2020-05-12T15:20:09Z" finished-at="2020-05-12T15:20:09Z">
+        <test-method status="PASS" signature="freeCrmTitleTest()[pri:1, instance:com.tests.LoginTest@3108bc]" name="freeCrmTitleTest" duration-ms="548" started-at="2020-05-14T00:05:18Z" finished-at="2020-05-14T00:05:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- freeCrmTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTest@3108bc]" name="tearDown" is-config="true" duration-ms="796" started-at="2020-05-12T15:20:09Z" finished-at="2020-05-12T15:20:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTest@3108bc]" name="tearDown" is-config="true" duration-ms="827" started-at="2020-05-14T00:05:18Z" finished-at="2020-05-14T00:05:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@3108bc]" name="setup" is-config="true" duration-ms="5809" started-at="2020-05-12T15:20:10Z" finished-at="2020-05-12T15:20:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@3108bc]" name="setup" is-config="true" duration-ms="5111" started-at="2020-05-14T00:05:19Z" finished-at="2020-05-14T00:05:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="freemCRMLogoTest()[pri:2, instance:com.tests.LoginTest@3108bc]" name="freemCRMLogoTest" duration-ms="934" started-at="2020-05-12T15:20:16Z" finished-at="2020-05-12T15:20:16Z">
+        <test-method status="PASS" signature="freemCRMLogoTest()[pri:2, instance:com.tests.LoginTest@3108bc]" name="freemCRMLogoTest" duration-ms="682" started-at="2020-05-14T00:05:24Z" finished-at="2020-05-14T00:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- freemCRMLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTest@3108bc]" name="tearDown" is-config="true" duration-ms="753" started-at="2020-05-12T15:20:16Z" finished-at="2020-05-12T15:20:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTest@3108bc]" name="tearDown" is-config="true" duration-ms="1424" started-at="2020-05-14T00:05:25Z" finished-at="2020-05-14T00:05:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

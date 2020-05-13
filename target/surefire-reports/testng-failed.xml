@@ -6,7 +6,6 @@
       <class name="com.tests.LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="freeCrmTitleTest"/>
           <include name="freemCRMLogoTest"/>
           <include name="setup"/>
         </methods>

@@ -48,7 +48,8 @@ public class LoginTest {
 	
 	
 	@Test(priority=1)
-	public void freeCrmTitleTest(){
+	public void freeCrmTitleTest() throws InterruptedException{
+		Thread.sleep(3000);
 		log.info("****************************** starting test case *****************************************");
 		log.info("****************************** Test *****************************************");
 		log.info("****************************** freeCrmTitleTest *****************************************");
@@ -63,7 +64,8 @@ public class LoginTest {
 	}
 	
 	@Test(priority=2)
-	public void freemCRMLogoTest(){
+	public void freemCRMLogoTest() throws InterruptedException{
+		Thread.sleep(3000);
 		log.info("****************************** starting test case *****************************************");
 		log.info("****************************** freemCRMLogoTest *****************************************");
 
