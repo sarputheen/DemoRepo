@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-com.tests.LoginTest">
-              <span class="suite-name border-failed">com.tests.LoginTest</span>
+              <span class="suite-name border-passed">com.tests.LoginTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-com.tests.LoginTest" class="hide-methods failed suite-com.tests.LoginTest"> (hide)</a> <!-- hide-methods failed suite-com.tests.LoginTest -->
-                      <a href="#" panel-name="suite-com.tests.LoginTest" class="show-methods failed suite-com.tests.LoginTest"> (show)</a> <!-- show-methods failed suite-com.tests.LoginTest -->
-                    </span>
-                    <div class="method-list-content failed suite-com.tests.LoginTest">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-com.tests.LoginTest" title="com.tests.LoginTest" hash-for-method="freemCRMLogoTest">freemCRMLogoTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-com.tests.LoginTest -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-com.tests.LoginTest" title="com.tests.LoginTest" hash-for-method="freeCrmTitleTest">freeCrmTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.tests.LoginTest" title="com.tests.LoginTest" hash-for-method="freemCRMLogoTest">freemCRMLogoTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-com.tests.LoginTest -->
@@ -131,25 +122,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-com.tests.LoginTest" class="panel com.tests.LoginTest">
-          <div class="suite-com.tests.LoginTest-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.tests.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="freemCRMLogoTest">
-                  </a> <!-- freemCRMLogoTest -->
-                  <span class="method-name">freemCRMLogoTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.tests.LoginTest.freemCRMLogoTest(LoginTest.java:71)
-... Removed 38 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-com.tests.LoginTest-class-failed -->
           <div class="suite-com.tests.LoginTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -161,6 +133,13 @@
                   <a name="freeCrmTitleTest">
                   </a> <!-- freeCrmTitleTest -->
                   <span class="method-name">freeCrmTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="freemCRMLogoTest">
+                  </a> <!-- freemCRMLogoTest -->
+                  <span class="method-name">freemCRMLogoTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,16 +199,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'freemCRMLogoTest')
 data.setCell(0, 2, 'com.tests.LoginTest')
-data.setCell(0, 3, 632);
+data.setCell(0, 3, 3304);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'freeCrmTitleTest')
 data.setCell(1, 2, 'com.tests.LoginTest')
-data.setCell(1, 3, 98);
+data.setCell(1, 3, 3077);
 window.suiteTableData['com.tests.LoginTest']= { tableData: data, tableDiv: 'times-div-com.tests.LoginTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 730 ms</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-com.tests.LoginTest">
               </div> <!-- times-div-com.tests.LoginTest -->
             </div> <!-- times-div -->
@@ -262,25 +241,23 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">freeCrmTitleTest</span>
-                <span class="method-start">7123 ms</span>
+                <span class="method-start">8248 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7222 ms</span>
+                <span class="method-start">11326 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">7968 ms</span>
+                <span class="method-start">12887 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">freemCRMLogoTest</span>
-                <span class="method-start">14006 ms</span>
+                <span class="method-start">18570 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14641 ms</span>
+                <span class="method-start">21874 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
