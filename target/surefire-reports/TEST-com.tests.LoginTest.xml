@@ -1,386 +1,145 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="1" name="com.tests.LoginTest" time="128.466" errors="0" skipped="3">
+<testsuite tests="2" failures="0" name="com.tests.LoginTest" time="6.384" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="25.144-b01"/>
-    <property name="user.country.format" value="IN"/>
-    <property name="gopherProxySet" value="false"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/NaveenKhunteta/Documents/workspace/GenerateLogs"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.country" value="US"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="FreeCRMTestLog4JJob"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\ndh70903\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="28a5850b41a767ba"/>
+    <property name="POM_ARTIFACTID" value="GenerateLogs"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\lib\resources.jar;C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\lib\rt.jar;C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\lib\sunrsasign.jar;C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\lib\jsse.jar;C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\lib\jce.jar;C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\lib\charsets.jar;C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\lib\jfr.jar;C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="GenerateLogs"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\ndh70903\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="NDH70903"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMTestLog4JJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestLog4JJob/7/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="OneDrive" value="C:\Users\ndh70903\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\ndh70903\AppData\Local"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="NDH70903"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\ndh70903\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestLog4JJob/7/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\ndh70903\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestLog4JJob/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="NMCORP"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\ndh70903"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="USERDNSDOMAIN" value="NMCORP.NISSAN.BIZ"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="INUH102529"/>
+    <property name="snow_agent" value="C:\Program Files\Snow Software\Inventory\Agent"/>
+    <property name="POM_GROUPID" value="GenerateLogs"/>
+    <property name="user.home" value="C:\Users\ndh70903"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTestLog4JJob-7"/>
+    <property name="JENKINS_SERVER_COOKIE" value="28a5850b41a767ba"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\ndh70903"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\ndh70903\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10/bin;C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\ndh70903\AppData\Local\Microsoft\WindowsApps;C:\Users\ndh70903\AppData\Roaming\npm;C:\Users\ndh70903\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ndh70903\AppData\Local\GitHubDesktop\bin;C:\Users\ndh70903\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\ndh70903\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\ndh70903\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\ndh70903\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\ndh70903\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\ndh70903\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\ndh70903\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\ndh70903\.jenkins\war\WEB-INF\lib\remoting-4.2.jar C:\Users\ndh70903\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\ndh70903\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 58025"/>
+    <property name="Path" value="C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\ndh70903\AppData\Local\Microsoft\WindowsApps;C:\Users\ndh70903\AppData\Roaming\npm;C:\Users\ndh70903\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ndh70903\AppData\Local\GitHubDesktop\bin;C:\Users\ndh70903\AppData\Local\Programs\Git\cmd"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/NaveenKhunteta/Documents/workspace/GenerateLogs"/>
-    <property name="java.runtime.version" value="1.8.0_144-b01"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/fd/lw5s91x96f947xsp40gd_2180000gp/T/"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\ndh70903\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.io.tmpdir" value="C:\Users\ndh70903\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\ndh70903\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\ndh70903\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTestLog4JJob/7/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\JDK\jdk-8u251-windows-x64\.rsrc\1033\JAVA_CAB10\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMTestLog4JJob/"/>
+    <property name="LOGONSERVER" value="\\JP-DC-103"/>
+    <property name="BitsMaxBandwidth" value="1"/>
+    <property name="USERDOMAIN" value="NMCORP"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/NaveenKhunteta/Documents/Maven/apache-maven-3.5.0/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/NaveenKhunteta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/Users/NaveenKhunteta/Documents/Maven/apache-maven-3.5.0/conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.12.5"/>
-    <property name="library.jansi.path" value="/Users/NaveenKhunteta/Documents/Maven/apache-maven-3.5.0/lib/jansi-native/osx64"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/NaveenKhunteta"/>
-    <property name="user.timezone" value="Europe/Berlin"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="MAVEN_HOME" value="C:\Users\ndh70903\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="8e0c"/>
+    <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\ndh70903\Documents\Jenkins"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\ndh70903\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\ndh70903\.jenkins\workspace\FreeCRMTestLog4JJob@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\ndh70903\.jenkins\workspace\FreeCRMTestLog4JJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\ndh70903\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="NaveenKhunteta"/>
-    <property name="java.class.path" value="/Users/NaveenKhunteta/Documents/Maven/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_144"/>
-    <property name="java.ext.dirs" value="/Users/NaveenKhunteta/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/NaveenKhunteta/Documents/Maven/apache-maven-3.5.0"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase classname="com.tests.LoginTest" name="setup" time="32.115">
-    <failure message="timeout
-  (Session info: chrome=61.0.3163.100)
-  (Driver info: chromedriver=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;surfer-172-29-0-53-hotspot.internet-for-guests.com&apos;, ip: &apos;fe80:0:0:0:149c:e382:1693:9c6d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061), userDataDir=/var/folders/fd/lw5s91x96f947xsp40gd_2180000gp/T/.org.chromium.Chromium.tx4BLu}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 012cbe2862bb400d1424869ebd724800" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=61.0.3163.100)
-  (Driver info: chromedriver=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;surfer-172-29-0-53-hotspot.internet-for-guests.com&apos;, ip: &apos;fe80:0:0:0:149c:e382:1693:9c6d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061), userDataDir=/var/folders/fd/lw5s91x96f947xsp40gd_2180000gp/T/.org.chromium.Chromium.tx4BLu}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 012cbe2862bb400d1424869ebd724800
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)
-	at com.tests.LoginTest.setup(LoginTest.java:42)
-</failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@48cf768c
-11-01-2017 12:52:37 LoginTest.java INFO  [main] tests.LoginTest 32 - ****************************** Starting test cases execution  *****************************************
-11-01-2017 12:52:38 RequestAddCookies.java DEBUG [Forwarding newSession on session null to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
-11-01-2017 12:52:38 RequestAuthCache.java DEBUG [Forwarding newSession on session null to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
-11-01-2017 12:52:38 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:38 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-11-01-2017 12:52:38 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 235 - Opening connection {}-&gt;http://localhost:38260
-11-01-2017 12:52:38 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding newSession on session null to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:38260
-11-01-2017 12:52:38 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding newSession on session null to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:54478&lt;-&gt;127.0.0.1:38260
-11-01-2017 12:52:38 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
-11-01-2017 12:52:38 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 256 - Executing request POST /session HTTP/1.1
-11-01-2017 12:52:38 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
-11-01-2017 12:52:38 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
-11-01-2017 12:52:38 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 133 - http-outgoing-0 &gt;&gt; POST /session HTTP/1.1
-11-01-2017 12:52:38 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-0 &gt;&gt; Content-Type: application/json; charset=utf-8
-11-01-2017 12:52:38 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-0 &gt;&gt; Content-Length: 550
-11-01-2017 12:52:38 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-0 &gt;&gt; Host: localhost:38260
-11-01-2017 12:52:38 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-0 &gt;&gt; Connection: Keep-Alive
-11-01-2017 12:52:38 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-0 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
-11-01-2017 12:52:38 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-0 &gt;&gt; Accept-Encoding: gzip,deflate
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;POST /session HTTP/1.1[\r][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;Content-Length: 550[\r][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;Host: localhost:38260[\r][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;{[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;  &quot;desiredCapabilities&quot;: {[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    &quot;browserName&quot;: &quot;chrome&quot;,[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    &quot;chromeOptions&quot;: {[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;      &quot;args&quot;: [],[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;      &quot;extensions&quot;: [][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    },[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    &quot;version&quot;: &quot;&quot;,[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    &quot;platform&quot;: &quot;ANY&quot;[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;  },[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;  &quot;requiredCapabilities&quot;: {},[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;  &quot;capabilities&quot;: {[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    &quot;desiredCapabilities&quot;: {[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;      &quot;browserName&quot;: &quot;chrome&quot;,[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;      &quot;chromeOptions&quot;: {[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;        &quot;args&quot;: [],[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;        &quot;extensions&quot;: [][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;      },[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;      &quot;version&quot;: &quot;&quot;,[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;      &quot;platform&quot;: &quot;ANY&quot;[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    },[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    &quot;requiredCapabilities&quot;: {},[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    &quot;alwaysMatch&quot;: {},[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    &quot;firstMatch&quot;: [[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;      {[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;        &quot;browserName&quot;: &quot;chrome&quot;[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;      }[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;    ][\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &gt;&gt; &quot;  }[\n]&quot;
-11-01-2017 12:52:38 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 87 - http-outgoing-0 &gt;&gt; &quot;}&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &lt;&lt; &quot;Content-Length:816[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &lt;&lt; &quot;Connection:close[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 87 - http-outgoing-0 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;012cbe2862bb400d1424869ebd724800&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;acceptSslCerts&quot;:true,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;browserName&quot;:&quot;chrome&quot;,&quot;chrome&quot;:{&quot;chromedriverVersion&quot;:&quot;2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061)&quot;,&quot;userDataDir&quot;:&quot;/var/folders/fd/lw5s91x96f947xsp40gd_2180000gp/T/.org.chromium.Chromium.tx4BLu&quot;},&quot;cssSelectorsEnabled&quot;:true,&quot;databaseEnabled&quot;:false,&quot;handlesAlerts&quot;:true,&quot;hasTouchScreen&quot;:false,&quot;javascriptEnabled&quot;:true,&quot;locationContextEnabled&quot;:true,&quot;mobileEmulationEnabled&quot;:false,&quot;nativeEvents&quot;:true,&quot;networkConnectionEnabled&quot;:false,&quot;pageLoadStrategy&quot;:&quot;normal&quot;,&quot;platform&quot;:&quot;Mac OS X&quot;,&quot;rotatable&quot;:false,&quot;setWindowRect&quot;:true,&quot;takesHeapSnapshot&quot;:true,&quot;takesScreenshot&quot;:true,&quot;unexpectedAlertBehaviour&quot;:&quot;&quot;,&quot;version&quot;:&quot;61.0.3163.100&quot;,&quot;webStorageEnabled&quot;:true}}&quot;
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 122 - http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 125 - http-outgoing-0 &lt;&lt; Content-Length:816
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 125 - http-outgoing-0 &lt;&lt; Content-Type:application/json; charset=utf-8
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 125 - http-outgoing-0 &lt;&lt; Connection:close
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-0: Close connection
-11-01-2017 12:52:39 ConnectionHolder.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 104 - Connection discarded
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:39 LoginTest.java INFO  [main] tests.LoginTest 36 - launching chrome broswer
-11-01-2017 12:52:39 RequestAddCookies.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
-11-01-2017 12:52:39 RequestAuthCache.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 1][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 235 - Opening connection {}-&gt;http://localhost:38260
-11-01-2017 12:52:39 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:38260
-11-01-2017 12:52:39 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:54493&lt;-&gt;127.0.0.1:38260
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-1: set socket timeout to 10800000
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 256 - Executing request POST /session/012cbe2862bb400d1424869ebd724800/window/current/maximize HTTP/1.1
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 133 - http-outgoing-1 &gt;&gt; POST /session/012cbe2862bb400d1424869ebd724800/window/current/maximize HTTP/1.1
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-1 &gt;&gt; Content-Type: application/json; charset=utf-8
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-1 &gt;&gt; Content-Length: 45
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-1 &gt;&gt; Host: localhost:38260
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-1 &gt;&gt; Connection: Keep-Alive
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-1 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-1 &gt;&gt; Accept-Encoding: gzip,deflate
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &gt;&gt; &quot;POST /session/012cbe2862bb400d1424869ebd724800/window/current/maximize HTTP/1.1[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &gt;&gt; &quot;Content-Length: 45[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &gt;&gt; &quot;Host: localhost:38260[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &gt;&gt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 87 - http-outgoing-1 &gt;&gt; &quot;{&quot;windowHandle&quot;:&quot;current&quot;,&quot;handle&quot;:&quot;current&quot;}&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &lt;&lt; &quot;Content-Length:72[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &lt;&lt; &quot;Connection:close[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-1 &lt;&lt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 87 - http-outgoing-1 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;012cbe2862bb400d1424869ebd724800&quot;,&quot;status&quot;:0,&quot;value&quot;:null}&quot;
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 122 - http-outgoing-1 &lt;&lt; HTTP/1.1 200 OK
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-1 &lt;&lt; Content-Length:72
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-1 &lt;&lt; Content-Type:application/json; charset=utf-8
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-1 &lt;&lt; Connection:close
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-1: Close connection
-11-01-2017 12:52:39 ConnectionHolder.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 104 - Connection discarded
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding maximizeCurrentWindow on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 1][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:39 RequestAddCookies.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
-11-01-2017 12:52:39 RequestAuthCache.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 2][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 235 - Opening connection {}-&gt;http://localhost:38260
-11-01-2017 12:52:39 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:38260
-11-01-2017 12:52:39 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:54496&lt;-&gt;127.0.0.1:38260
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-2: set socket timeout to 10800000
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 256 - Executing request DELETE /session/012cbe2862bb400d1424869ebd724800/cookie HTTP/1.1
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 133 - http-outgoing-2 &gt;&gt; DELETE /session/012cbe2862bb400d1424869ebd724800/cookie HTTP/1.1
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-2 &gt;&gt; Host: localhost:38260
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-2 &gt;&gt; Connection: Keep-Alive
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-2 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-2 &gt;&gt; Accept-Encoding: gzip,deflate
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;DELETE /session/012cbe2862bb400d1424869ebd724800/cookie HTTP/1.1[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;Host: localhost:38260[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &lt;&lt; &quot;Content-Length:72[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &lt;&lt; &quot;Connection:close[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-2 &lt;&lt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 87 - http-outgoing-2 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;012cbe2862bb400d1424869ebd724800&quot;,&quot;status&quot;:0,&quot;value&quot;:null}&quot;
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 122 - http-outgoing-2 &lt;&lt; HTTP/1.1 200 OK
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-2 &lt;&lt; Content-Length:72
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-2 &lt;&lt; Content-Type:application/json; charset=utf-8
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-2 &lt;&lt; Connection:close
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-2: Close connection
-11-01-2017 12:52:39 ConnectionHolder.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 104 - Connection discarded
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 2][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:39 RequestAddCookies.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
-11-01-2017 12:52:39 RequestAuthCache.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 3][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 235 - Opening connection {}-&gt;http://localhost:38260
-11-01-2017 12:52:39 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:38260
-11-01-2017 12:52:39 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:54497&lt;-&gt;127.0.0.1:38260
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-3: set socket timeout to 10800000
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 256 - Executing request POST /session/012cbe2862bb400d1424869ebd724800/timeouts HTTP/1.1
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 133 - http-outgoing-3 &gt;&gt; POST /session/012cbe2862bb400d1424869ebd724800/timeouts HTTP/1.1
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Content-Type: application/json; charset=utf-8
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Content-Length: 31
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Host: localhost:38260
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Connection: Keep-Alive
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-3 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Accept-Encoding: gzip,deflate
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;POST /session/012cbe2862bb400d1424869ebd724800/timeouts HTTP/1.1[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Content-Length: 31[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Host: localhost:38260[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 87 - http-outgoing-3 &gt;&gt; &quot;{&quot;type&quot;:&quot;page load&quot;,&quot;ms&quot;:30000}&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Length:72[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Connection:close[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;012cbe2862bb400d1424869ebd724800&quot;,&quot;status&quot;:0,&quot;value&quot;:null}&quot;
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 122 - http-outgoing-3 &lt;&lt; HTTP/1.1 200 OK
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Length:72
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Type:application/json; charset=utf-8
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Connection:close
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-3: Close connection
-11-01-2017 12:52:39 ConnectionHolder.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 104 - Connection discarded
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 3][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:39 RequestAddCookies.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
-11-01-2017 12:52:39 RequestAuthCache.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 4][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 235 - Opening connection {}-&gt;http://localhost:38260
-11-01-2017 12:52:39 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:38260
-11-01-2017 12:52:39 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:54498&lt;-&gt;127.0.0.1:38260
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-4: set socket timeout to 10800000
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 256 - Executing request POST /session/012cbe2862bb400d1424869ebd724800/timeouts HTTP/1.1
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 133 - http-outgoing-4 &gt;&gt; POST /session/012cbe2862bb400d1424869ebd724800/timeouts HTTP/1.1
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-4 &gt;&gt; Content-Type: application/json; charset=utf-8
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-4 &gt;&gt; Content-Length: 30
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-4 &gt;&gt; Host: localhost:38260
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-4 &gt;&gt; Connection: Keep-Alive
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-4 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-4 &gt;&gt; Accept-Encoding: gzip,deflate
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &gt;&gt; &quot;POST /session/012cbe2862bb400d1424869ebd724800/timeouts HTTP/1.1[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &gt;&gt; &quot;Content-Length: 30[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &gt;&gt; &quot;Host: localhost:38260[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &gt;&gt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 87 - http-outgoing-4 &gt;&gt; &quot;{&quot;type&quot;:&quot;implicit&quot;,&quot;ms&quot;:10000}&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &lt;&lt; &quot;Content-Length:72[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &lt;&lt; &quot;Connection:close[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-4 &lt;&lt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 87 - http-outgoing-4 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;012cbe2862bb400d1424869ebd724800&quot;,&quot;status&quot;:0,&quot;value&quot;:null}&quot;
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 122 - http-outgoing-4 &lt;&lt; HTTP/1.1 200 OK
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-4 &lt;&lt; Content-Length:72
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-4 &lt;&lt; Content-Type:application/json; charset=utf-8
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-4 &lt;&lt; Connection:close
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-4: Close connection
-11-01-2017 12:52:39 ConnectionHolder.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 104 - Connection discarded
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 4][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:39 RequestAddCookies.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
-11-01-2017 12:52:39 RequestAuthCache.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-11-01-2017 12:52:39 PoolingHttpClientConnectionManager.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 5][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 235 - Opening connection {}-&gt;http://localhost:38260
-11-01-2017 12:52:39 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:38260
-11-01-2017 12:52:39 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:54499&lt;-&gt;127.0.0.1:38260
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-5: set socket timeout to 10800000
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 256 - Executing request POST /session/012cbe2862bb400d1424869ebd724800/url HTTP/1.1
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
-11-01-2017 12:52:39 MainClientExec.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 133 - http-outgoing-5 &gt;&gt; POST /session/012cbe2862bb400d1424869ebd724800/url HTTP/1.1
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-5 &gt;&gt; Content-Type: application/json; charset=utf-8
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-5 &gt;&gt; Content-Length: 34
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-5 &gt;&gt; Host: localhost:38260
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-5 &gt;&gt; Connection: Keep-Alive
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-5 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
-11-01-2017 12:52:39 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 136 - http-outgoing-5 &gt;&gt; Accept-Encoding: gzip,deflate
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &gt;&gt; &quot;POST /session/012cbe2862bb400d1424869ebd724800/url HTTP/1.1[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &gt;&gt; &quot;Content-Length: 34[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &gt;&gt; &quot;Host: localhost:38260[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &gt;&gt; &quot;[\r][\n]&quot;
-11-01-2017 12:52:39 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 87 - http-outgoing-5 &gt;&gt; &quot;{&quot;url&quot;:&quot;https://www.freecrm.com/&quot;}&quot;
-11-01-2017 12:53:09 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
-11-01-2017 12:53:09 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &lt;&lt; &quot;Content-Length:249[\r][\n]&quot;
-11-01-2017 12:53:09 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
-11-01-2017 12:53:09 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &lt;&lt; &quot;Connection:close[\r][\n]&quot;
-11-01-2017 12:53:09 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 73 - http-outgoing-5 &lt;&lt; &quot;[\r][\n]&quot;
-11-01-2017 12:53:09 Wire.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.wire 87 - http-outgoing-5 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;012cbe2862bb400d1424869ebd724800&quot;,&quot;status&quot;:21,&quot;value&quot;:{&quot;message&quot;:&quot;timeout\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061),platform=Mac OS X 10.12.5 x86_64)&quot;}}&quot;
-11-01-2017 12:53:09 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 122 - http-outgoing-5 &lt;&lt; HTTP/1.1 200 OK
-11-01-2017 12:53:09 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-5 &lt;&lt; Content-Length:249
-11-01-2017 12:53:09 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-5 &lt;&lt; Content-Type:application/json; charset=utf-8
-11-01-2017 12:53:09 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] http.headers 125 - http-outgoing-5 &lt;&lt; Connection:close
-11-01-2017 12:53:09 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-5: Close connection
-11-01-2017 12:53:09 ConnectionHolder.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] execchain.MainClientExec 104 - Connection discarded
-11-01-2017 12:53:09 PoolingHttpClientConnectionManager.java DEBUG [Forwarding get on session 012cbe2862bb400d1424869ebd724800 to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 5][route: {}-&gt;http://localhost:38260][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-</system-out>
-    <system-err>Starting ChromeDriver 2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061) on port 38260
-Only local connections are allowed.
-Nov 01, 2017 12:52:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-[31.409][SEVERE]: Timed out receiving message from renderer: 21.073
-[31.414][SEVERE]: Timed out receiving message from renderer: -0.006
-</system-err>
-  </testcase>
-  <testcase classname="com.tests.LoginTest" name="freeCrmTitleTest" time="32.117">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.tests.LoginTest" name="setup" time="32.117">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.tests.LoginTest" name="freemCRMLogoTest" time="32.117">
-    <skipped/>
-  </testcase>
+  <testcase classname="com.tests.LoginTest" name="freeCrmTitleTest" time="3.08"/>
+  <testcase classname="com.tests.LoginTest" name="freemCRMLogoTest" time="3.304"/>
 </testsuite>
