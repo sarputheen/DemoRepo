@@ -50,6 +50,7 @@ public class LoginTest {
 	@Test(priority=1)
 	public void freeCrmTitleTest(){
 		log.info("****************************** starting test case *****************************************");
+		log.info("****************************** Test *****************************************");
 		log.info("****************************** freeCrmTitleTest *****************************************");
 		String title = driver.getTitle();
 		System.out.println(title);
